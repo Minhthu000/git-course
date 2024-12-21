@@ -1,0 +1,26 @@
+XPATH
+2.XPath tương đối cho các fields:
+- Input username
+ //input[@id="username"]
+
+- Checkbox Hobbies: Cooking
+ //input[@id="cooking"]
+
+- Radio: female
+ //input[@id="female"]
+
+- Profile Picture
+ //input[@id="profile"]
+ 
+- Button "Register"
+ //button[@type="submit"]
+
+3. Viết XPath tuyệt đối cho các fields:
+- Input Biography
+html/body/div[2]/form/div[9]/textarea
+
+- Checkbox Hobbies: Traveling
+html/body/div[2]/form/div[4]/div/div[2]/input
+
+- Radio: Male
+html/body/div[2]/form/div[3]/div/div[1]/input
