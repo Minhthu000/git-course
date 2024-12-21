@@ -1,0 +1,46 @@
+DOM
+2.
+    a. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ:
+    - Thẻ <div> (viết tắt của divide): dùng để chia các khối trong trang web
+    - Thẻ <h1></h1> đến <h6></h6> (viết tắt của heading): dùng để tạo ra các header phân cấp theo thứ tự từ lớn đến bé
+    - Thẻ <form></form>: dùng để chứa 1 form thông tin
+    - Thẻ input: text, email, radio, checkbox, file, color, range, date
+    - Thẻ textarea: hiển thị ô input dạng to
+    - Thẻ radio button: tạo nút chọn một (radio)
+    - Thẻ checkbox: tạo nút tạo nút cho phép chọn nhiều lựa chọn
+    - Thẻ list và dropdown: hiển thị danh sách hoặc menu thả xuống
+    - Thẻ button: tạo nút bấm
+    - Thẻ table: tạo bảng dữ liệu
+    - Thẻ date picker: tạo bộ chọn ngày
+    - Thẻ slider: tạo thanh trượt
+    - Thẻ iframe: hiển thị nội dung từ một trang web khác bên trong trang web hiện tại
+
+    b. Cấu trúc html của 1 bảng (table):
+    Đầu tiên để tạo 1 bảng ta cần có cặp thẻ mở và đóng:
+    <table> và </table>
+    Để tạo hàng ta sử dụng cặp thẻ:
+    <tr> và </tr>
+    Để tạo cột ta sử dụng cặp thẻ:
+    <td> và </td>
+    Để xác định tiêu đề (heading) trong bảng sử dụng cặp thẻ <tr> và có chức năng tương tự với cặp thẻ <td>
+    <th> và </th> 
+Ex:
+<table>
+    <tr>
+        <th>Tên</th>
+        <th>Năm sinh</th>
+    </tr>
+
+    <tr>
+        <td>Kim Xuyến</td>
+        <td>1998</td>
+    </tr>
+
+    <tr>
+        <td>Pony Trinh</td>
+        <td>1996</td>
+    </tr>
+
+</table>
+
+
